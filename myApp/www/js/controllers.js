@@ -21,6 +21,10 @@ angular.module('starter.controllers', [])
   $scope.card = Cards.get($stateParams.cardId);
 })
 
+.controller('NewCardCtrl', function($scope) {
+  $scope.send;
+})
+
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
     enableFriends: true
